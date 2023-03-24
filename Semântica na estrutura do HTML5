@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA7-Semântica na estrutura do HTML5</title>
+</head>
+
+<body>
+
+    <img class=""
+    src="C:\Users\ANDRE LUIZ\Documents\FULL STACK\HTML 2022\AULA7-Semântica na estrutura do HTML5\LOGO DREDESIGN oie_transparent.png"
+    alt="Uma logo da empresa DREDESIGN, em forma do símbolo mais o mesmo da soma em matemática, com duas letras D em cor vermelha, uma sobre a outra!" width="200" height="200">
+
+
+    <!-- ESSE MÉTODO, É UM MÉTODO ANTIGO, DE CRIAÇÃO DE MENU! --> 
+
+   <!--  <div id="header">
+        <div id="menu"></div>
+    </div>
+    <div id="content"></div> -->
+    <h1>Semântica na estrutura do HTML5</h1>
+
+    <header>
+        <h1>
+            <a href="#">Home</a>
+        </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            At voluptatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+            nisi placeat sit cum ullam libero eveniet est 
+            voluptatibus consequatur doloribus labore!
+        </p>
+        <div>Para alinhar algo</div>
+
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 1</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+
+
+    <section>
+        <header>
+            <h2>Roupas Femininas</h2>
+        </header>
+
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+
+    </section>
+
+    <div>
+        <article>
+            <header>
+                <h3>Heading</h3>
+            </header>
+            <div>Oi</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit 
+                accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+                <footer>
+                    Rodapé
+                </footer>
+
+        </article>
+    </div>
+
+    <section>
+        <header>
+            <h2>Roupas Masculinas</h2>
+        </header>
+
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                At volup tatum blanditiis tempora ipsam reprehenderit accusamus porro et non, 
+                nisi placeat sit cum ullam libero eveniet est 
+                voluptatibus consequatur doloribus labore!</p>
+        </article>
+
+    </section>
+
+    
+    <aside>DREDESIGN, inovando o futuro, com tecnologia, 
+        em nome de Jesus Cristo!
+    
+    
+        <footer>DREDESIGN, inovando o futuro, com tecnologia, 
+            em nome de Jesus Cristo!</footer>
+    </aside>
+
+    <footer>
+        Meus endereço, meu telefone e etc
+    </footer>
+
+
+</body>
+
+</html>
