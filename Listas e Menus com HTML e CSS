@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Menus com HTML e CSS</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    nav {
+        background: red;
+        
+    } 
+    body nav ul li a {
+        color: rgb(247, 246, 246);
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px 20px;
+        display: block;
+        text-transform: uppercase;       
+    }
+
+    nav a:hover {
+        background: rgba(0,0,0,0.5);
+        
+    }
+
+    nav {
+
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin-left: 10px;
+
+    }
+
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <p>    </p>
+            <li><a href="#">About</a></li>
+            <p></p>
+            <li><a href="#">Products</a></li>
+        </ul>
+
+    
+    </nav>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="1" start="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida escura quente</dd>
+    </dl>
+
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida escura quente</dd>
+    </dl>
+    
+</body>
