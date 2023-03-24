@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA5-Tags HTML para texto(links, imagens, etc)</title>
+</head>
+
+<style>
+    b {
+        font-size: 40px;
+    }
+    .prog {
+        font-size: 40px;
+    }
+    .hr1 {
+        height: 20px;
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <p class="prog">
+    <img class="dred">
+
+    <hr class="hr1">
+
+    <h1 style="background-color: rgb(141, 187, 141); font-size: 60px;">
+        AULA5-Tags HTML para texto (links, imagens, etc)
+
+    </h1>
+
+    <img class=""
+        src="C:\Users\ANDRE LUIZ\Documents\FULL STACK\HTML 2022\AULA5-Tags_HTML_para_texto(links_imagens__etc)\LOGO DREDESIGN oie_transparent.png"
+        alt="Uma logo da empresa DREDESIGN, em forma do símbolo mais o mesmo da soma em matemática, com duas letras D em cor vermelha, uma sobre a outra!" width="200" height="200">
+
+    <a href="https://www.revistaplaneta.com.br/" target="_blank">
+        <img src="C:\Users\ANDRE LUIZ\Documents\FULL STACK\HTML 2022\AULA5-Tags_HTML_para_texto(links_imagens__etc)\fLfBz5uf_400x400.jpg"
+            alt="Uma logo, com a palavra planeta em cor preta, com p em destaque, 
+        de cor branca e envolvida por uma esfera vermelha!" width="300" height="150"></a>
+
+    <h2 style="background: rgb(223, 225, 84);"><b>Lorem</b> <strong>ipsum dolor, sit amet consectetur adipisicing elit.
+            Iure odit ad rem.</strong> Quia natus <s>obcaecati</s> fuga! Eveniet, <ins>tempora.</ins>
+        Eius, quae quaerat. <i>Odit <u>deleniti</u> nihil labore <del>voluptatum</del>
+            magnam sed. At.</i>
+    </h2>
+
+    <hr>
+
+    <p style="background: rgb(138, 182, 221);">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Iure odit ad rem. <code>console.log</code> Quia natus obcaecati fuga! Eveniet, tempora.
+        Eius, quae quaerat. Odit deleniti nihil labore voluptatum facere
+        magnam sed. At.
+    </p>
+
+    <p>
+        <strong>TODAS ESSAS TAGs A SEGUIR, PODEM VIR DENTRO DA TAG 'p'!</strong>
+        <br><br>
+        <del>Vermelha</del> <ins>azul</ins>, <s>corrigido</s>!
+        <br>
+        <br>
+        Tag "<small>small</small>", para deixar a frase menor!
+        <br>
+        <br>
+        Tag "sup" 2<sup>2</sup>, para fazer o elevado(subir) de um numero ou letra
+        2<sup>2x</sup> em matemática!
+        <br>
+        <br>
+        Tag "sub" H<sub>2</sub>O, para descer uma letra ou um número!
+        <br>
+        <br>
+        Tag q cite=" O link do site é Aqui", para citar o trexo de um texto, de um determinado site!
+        <br>
+        Exemplo: <br>
+        <q cite="https://developer.mozilla.org/pt-BR/#:~:text=Neste%20m%C3%B3dulo%20vamos%20entender%20
+        JavaScript%20Ass%C3%ADncrono%2C%20porque%20isso%20%C3%A9%20importante%20e%20como%20pode%20ser%20usado%20para
+        %20lidar%20com%20opera%C3%A7%C3%B5es">Neste módulo vamos entender JavaScript Assíncrono, porque isso é
+            importante e como pode ser usado para lidar com operações!</q> <br><br>
+
+
+
+
+        <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Iure odit ad rem. Quia natus obcaecati fuga! Eveniet, tempora.</i>
+        Eius, quae quaerat. Odit deleniti nihil labore voluptatum facere
+        <a href="https://www.revistaplaneta.com.br/" target="_blank">magnam</a> sed. At.
+    </p>
+
+    <p>
+        <b class="black">a href=</b><strong>"Exemplo do link Aqui"</strong> = Essa tag, transforma um trexo de um texto,
+        associado a Link, que ao clicar
+        nos leva para um determinado Site, abrindo esse Site na mesma aba, aberta
+        no momento do clique, para que o site abra em outra aba, é necessário incluir
+        a função,<b>target='_blank></b><strong>Exemplo da fraze é Aqui < /a>!</strong>
+        <br>
+        <br>
+
+        <b class="black">img src="" alt=""></b> = Essa tag não tem corpo por tanto, ela não tem tag de fechamento,
+        ela inclui uma imagem, através do link ou inclui uma imagem, já salva em seu site ou computador!
+        <b>alt=""</b> vem junto e serve para uma breve, descrição da imagem, facilitando na audição para a
+        compreenção de uma pessoa com pouca visão para enchergar!
+        <br>
+        <br>
+
+        <b class="black">e</b> = Essa tag, dá mais enfase a uma determinada frase, dando um destaque
+        na frase, facilitando na audição para a compreenção de uma pessoa com pouca visão para enchergar!
+        <br>
+        <br>
+
+        <b class="black">i</b> = Essa tag, deixa a frase em itálico!
+        <br>
+        <br>
+
+        <b class="black">em</b> = Essa tag, também deixa a frase em itálico porem, dando mais enfase a frase!
+        <br>
+        <br>
+    </p>
+    <article>
+        <h4>Um artigo realmente impressionante</h4>
+        <p>Lotes de texto incrível.</p>
+    </article>
+<hr>
+<h3>
+    A tag 'pre'   é para manter o codigo, em formato de código 
+    e a Tag   'code'   é para informar que um trexo de frases e símbolos, é um código!
+</h3>
+<pre><code>let soma = 0;
+            
+        inputsMais.forEach((input) => {
+        const valor = input.value;
+        const numero = Number(valor);
+
+        if (numero) {
+            soma += numero;
+        }
+
+        console.log(soma);
+    });
+</code></pre>
+
+<hr>
+
+
+    <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+        <img class="img-in-text" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mdn-logo.png" alt="Uma logo da MDN, de cabeça de dinoçauro, no meio de um quadrado azul, 
+    com dobras!"></a>
+    <hr>
+    <p>ESSAS TAGs A SEGUIR, SÓ PODEM ESTÁ FORA DA TAG 'p' !</p>
+
+    <blockquote style="background: rgb(197, 229, 122);">
+        'blockquote' é um bloco de citação!
+        <br>
+        Por <i>André Luiz Costa de Souza</i>,
+        um futuro programador Full Stack!
+    </blockquote>
+    <br><br>
+    <!-- A tag <hr>, não tem corpo e ela é um bloco, vai criar uma linha entre as frases, 
+    quando o assunto é diferente do assunto a seguir!
+    EXEMPLO A BAIXO:-->
+    <hr>
+
+
+    <blockquote cite="https://developer.mozilla.org/pt-BR/">
+        <p>Aqui sim eu estou fazendo, um bloco de citação!</p>
+
+    </blockquote>
+
+ 
+</body>
+
+</html>
