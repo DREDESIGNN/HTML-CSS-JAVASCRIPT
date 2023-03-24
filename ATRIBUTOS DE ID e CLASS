@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA3-ATRIBUTOS DE ID e CLASS</title>
+
+    <style>
+        h1 {
+            background: red;
+        }
+        P {
+            background:rgb(236, 240, 22)
+        }
+        #cab-um {
+            background: rgb(34, 128, 42);
+        }
+        #cab-dois {
+            background: rgb(38, 4, 233);
+        }
+        b {
+            background: white;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1 id="cab-um" class="fundo-v borda-esquerda">
+        ATRIBUTOS DE ID E CLASS
+    </h1>
+    <h1 id="cab-dois" class="fundo-v">
+        ATRIBUTOS DE ID E CLASS
+    </h1>
+    <p>Lorem ipsum dolor sit amet <b>consectetur adipisicing elit.</b> 
+        Ex atque, maiores culpa quo voluptatem iusto vel obcaecati 
+        adipisci quas quibusdam magnam aut quis consequuntur autem totam cum 
+        facilis mollitia. Nesciunt?</p>
+
+    <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+        <img class="img-in-text" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mdn-logo.png" 
+        alt="Uma logo da MDN, de cabeça de dinoçauro, no meio de um quadrado azul, 
+        com dobras!"></a>
+
+        <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+            <img class="img-in-text" src="AQUI ENTRA O LINK DA SUA IMAGEM.png" 
+            alt="AQUI ENTRA A DESCRIÇÃO DA SUA LOGO, COMO NO EXEMPLO ACIMA!"></a>
+        
+    
+</body>
+</html>
