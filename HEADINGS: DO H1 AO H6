@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEADINGS: DO H1 AO H6</title>
+</head>
+
+<body>
+    <h1 style="color:rgb(186, 119, 18);">EU SOU FULL STACK</h1>
+    <h2 style="color:blue">EU SOU FULL STACK</h2>
+    <h3 style="color:black">EU SOU FULL STACK</h3>
+    <h4 style="color:blueviolet">EU SOU FULL STACK</h4>
+    <h5 style="color:chartreuse">EU SOU FULL STACK</h5>
+    <h6 style="color:brown">EU SOU FULL STACK</h6> 
+    
+</body>
+</html>
