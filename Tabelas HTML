@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas HTML</title>
+
+<style>
+    body {
+        font-family: Arial;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 600%;
+    }
+
+    table td, table th {
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+
+    table caption {
+        caption-side: top;
+        text-align: left;
+        font-style: italic;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    table th {
+        background: #ddd;
+    }
+
+    tfoot td {
+        background: #ddd;
+        font-style: italic;
+    }
+
+    .segunda-T {
+        caption-side: bottom;
+        text-align: left;
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .responsive-table {
+        max-width: 100%;
+        overflow: auto;
+    }
+
+   
+</style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="responsive-table">
+
+    <table>
+        <caption>Uma descrição, para a tabela!</caption>
+       <thead>
+        <tr>
+            <th>Título 1</th>
+            <th>Título 2</th>
+            <th>Título 3</th>
+        </tr> 
+       </thead> 
+
+       <tbody>
+        <tr>
+          <td>Corpo 1</td>
+          <td>Corpo 2</td>
+          <td>Corpo 3</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td colspan="2" rowspan="2">AQUI</td>
+          <td>Corpo 3</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>Corpo 1</td>
+          <td>Corpo 2</td>
+          <td>Corpo 3</td>
+        </tr>
+      </tbody>
+      <caption class="segunda-T">
+        Descrição no final da tabela!</caption>
+      
+      <tfoot>
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <td>TOTAL:</td>
+
+        </tr>
+        <tr>
+            <td>R$963,000.000</td>
+
+        </tr>
+      </tfoot>
+      
+    </table>
+
+  </div>
+</body>
+</html>
