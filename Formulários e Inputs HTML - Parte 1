@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários e Inputs HTML - Parte 1</title>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" 
+    autocomplete="off">
+    <section>
+        <h1>Cabeça!</h1>
+        <p>Formulário</p>
+
+            <fieldset>
+                <legend>Descrição</legend>
+                <p>
+                    <input type="text">
+                </p>
+                
+            </fieldset>
+    </section>
+        
+
+    </form>
+</body>
+</html>
