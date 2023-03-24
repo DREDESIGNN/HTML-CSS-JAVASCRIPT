@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+          background-image: 
+          url(https://mundoconectado.com.br/uploads/chamadas/netflix-1.jpg);
+          
+          background-position: top center;
+    
+
+        }
+
+        #heading {
+            background:rgb(0, 0, 0, 0.8);
+        }
+
+        #heading div {
+            width: 90%;
+            display: flex;
+           
+            background:0;
+            justify-content: 
+            space-between;
+            margin: 0 auto;
+        }
+
+        #heading .h1 {
+            padding: 15px;
+            
+            font-size: 49px;
+           
+        }
+
+        #heading .a {
+            color: rgb(240, 12, 12);
+            text-transform: none;
+            font-family: sans-serif;
+        }
+
+        
+       
+
+
+    </style>
+</head>
+<body>
+    <header id="heading">
+        <div>
+
+            <h1 class="h1">
+                <a href="#">NetFlix</a>
+            </h1>
+
+            <h2 class="h1">
+                <a href="#">Entrar</a>
+            </h2>
+        </div>
+
+
+
+
+    </header>
+    
+</body>
+</html>
